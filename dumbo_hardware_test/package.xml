@@ -1,0 +1,22 @@
+<package>
+  <name>dumbo_hardware_test</name>
+  <version>1.0.0</version>
+  <description>
+    Scripts and programs to test hardware components of Dumbo.
+  </description>
+  <maintainer email="fevb@kth.se">Francisco Vina</maintainer>
+  <license>BSD</license>
+
+  <url>http://ros.org/wiki/dumbo_hardware_test</url>
+
+  <author email="fevb@kth.se">Francisco Vina</author>
+  <maintainer email="fevb@kth.se">Francisco Vina</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>dumbo_arm_test</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
